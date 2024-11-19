@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-theme{
+   background-color: rgb(14, 14, 15);
+  --bg-clr:#0F172A;
+  --text-color:#b7b7b7;
+  --bg-hover:#4a5568;
+  --bg-clri:#0F172A;
+  --font:#fff;
+  --main-heading:#fff;
+}
+.light-theme{
+  --main-heading:#1481c5;
+  --para-clr:#6a6a6a;
+  --bg-color:#4f46e5;
+  --bg-hover:#dadada;
+  --text-color:#636363;
+  --bg-clr:#fff;
+  --font:#6a6a6a;
+  --bg-clri:#ffffff;
+  background-color: rgb(226, 226, 226);
+  color: #111b20;
+}

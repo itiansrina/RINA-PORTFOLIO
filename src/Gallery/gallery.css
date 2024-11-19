@@ -1,0 +1,36 @@
+.modal-enter {
+    opacity: 0;
+  }
+  
+  .modal-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
+  .modal-exit {
+    opacity: 0;
+  }
+  
+  .modal-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .modal-next-enter {
+    transform: translateX(100%);
+  }
+  
+  .modal-next-enter-active {
+    transform: translateX(0%);
+    transition: transform 1000ms ease-in-out;
+  }
+  
+  .modal-prev-enter {
+    transform: translateX(-100%);
+  }
+  
+  .modal-prev-enter-active {
+    transform: translateX(0%);
+    transition: transform 500ms ease-in-out;
+  }
+  
